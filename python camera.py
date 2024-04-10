@@ -11,7 +11,7 @@ def process(src):
     cv2.imwrite("result.jpg", dst)
     print("Image processed.")
     
-def capture_images(num_images=3):
+def capture_images(num_images):
     # Open the default camera
     cap = cv2.VideoCapture(0)
 
